@@ -24,7 +24,7 @@ if [ $4 ]; then
 fi
 
 if [ -z "$SubDomain" ]; then
-	SubDomain="@"
+	SubDomain="%40"
 fi
 
 Timestamp=$(date -u "+%Y-%m-%dT%H%%3A%M%%3A%SZ")	# SB 阿里云, 什么鬼时间格式
